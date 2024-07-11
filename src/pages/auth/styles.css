@@ -1,0 +1,66 @@
+Resetting default margin and padding * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login page container */
+.login-page {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for depth */
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition effects */
+}
+
+.login-page:hover {
+  transform: translateY(-5px); /* Lift up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.login-page p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.login-with-google-btn {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-with-google-btn:hover {
+  background-color: #357ae8;
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.login-with-google-btn:focus {
+  outline: none; /* Remove default focus outline */
+}
+.expense {
+  color: red;
+}

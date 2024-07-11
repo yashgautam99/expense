@@ -1,0 +1,203 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance h3 {
+  font-size: 20px;
+  color: #555;
+}
+
+.balance h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.summary .income,
+.summary .expenses {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.summary h4 {
+  font-size: 18px;
+  color: #555;
+}
+
+.summary p {
+  font-size: 24px;
+  color: #333;
+}
+
+.add-transaction {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.add-transaction input[type="text"],
+.add-transaction input[type="number"],
+.add-transaction input[type="radio"],
+.add-transaction button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-transaction input[type="radio"] {
+  margin-top: 8px;
+}
+
+.add-transaction label {
+  margin-left: 5px;
+}
+
+.transactions {
+  margin-top: 20px;
+}
+
+.transactions h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.transactions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactions li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transactions li h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.transactions li p {
+  font-size: 16px;
+  color: #333;
+}
+/* .profile {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo {
+  width: 100px;
+  margin-top: 50px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3498db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.sign-out-button {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.sign-out-button:hover {
+  background-color: #c82333; */
+/* } */
+.photo-section {
+  margin-top: 20px;
+}
+
+/* styles.css */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 100px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3498db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-photo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.sign-out-button {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.sign-out-button:hover {
+  background-color: #c82333;
+}
